@@ -12,4 +12,6 @@ public interface Rule {
      */
     default void applyAfterRecurse(Transformable transformable) {
     }
+
+    String getName();
 }
